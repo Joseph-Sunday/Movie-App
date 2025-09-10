@@ -10,12 +10,10 @@ const App = () => {
     <MovieProvider>
       <NavBar />
       <main className="main-content">
-        <Router>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/favorites" element={<Favorites />} />
           </Routes>
-        </Router>
       </main>
     </MovieProvider>
   );
