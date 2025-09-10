@@ -36,7 +36,7 @@ const Home = () => {
       setError(null);
     } catch (err) {
       console.log(err);
-      setError("Failed to search movies...");
+      setError("Failed to search movies....");
     } finally {
       setLoading(false);
     }
